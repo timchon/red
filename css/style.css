@@ -121,14 +121,44 @@ nav .container{
 }
 
 .header-content .container.grid-2{
-    grid-template-columns: 2.5fr 3.5fr;
+    grid-template-columns: 2.5fr 2.5fr;
     height: calc(100vh - 96px);
     padding-bottom: 1.2rem;
     text-align: left;
 }
 
-.header-text{
-    font-size: 3.8rem;
-    line-height: 0.8;
+.header-title{
+    font-size: 3rem;
+    line-height: 1;
+    color: var(--dark-color);
+    text-transform: uppercase;
+}
+.header-slogan{
+    font-size: 2rem;
+    color: var(--dark-color);
+    line-height: 3.8rem;
+    text-transform: uppercase;
+}
+.text{
+    font-size: 1.2rem;
+    color: var(--dark-color);
+    line-height: 1.6rem;
+    margin-bottom: 1.3rem;
+}
+.btn{
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0.9rem 0.7rem;
+    color: var(--white-color);
+    font-weight: 500;
+    font-size: 0.95rem;
+    line-height: 1;
+    transition: 0.3s;
+    border-radius: 2rem;
+    background-color: var(--red-color);
+}
+.btn:hover{
+    color: var(--background-color);
+    background-color: var(--dark-color);
 }
 /* End Header */
