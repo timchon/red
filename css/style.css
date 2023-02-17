@@ -277,13 +277,15 @@ header .line {
     height: 100%;
     max-width: 450px;
     min-height: 300px;
-    background-color: var(--background-color);
+    background-color: #f8f8f8;
     display: flex;
     align-items: flex-start;
     justify-content: center;
     text-align: center;
     padding: 3rem 2rem;
     overflow: hidden;
+    margin-top: 2rem;
+    position: relative;
 }
 
 .cards{
@@ -311,7 +313,29 @@ header .line {
     color: var(--red-color);
 }
 
+.card:after{
+content: "";
+position: absolute;
+width: 100%;
+height: 0px;
+bottom: 0;
+left: 0;
+background-color: var(--red-color);
+transition: 0.3s;
+}
+
+.card:hover:after{
+    height: 8px;
+}
+
 .hum-item{
     font-size: 1.2rem;
+}
+
+.hum-item-not{
+    text-transform: uppercase;
+    font-weight: 900;
+    color: var(--red-color);
+    font-size: 1.6rem;
 }
 /* End Humanitarian */
