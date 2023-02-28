@@ -371,12 +371,11 @@ transition: 0.3s;
 .graphic{
     width: 100%;
     position: relative;
-    min-height: 700px;
 }
 .background-bg{
     position: absolute;
     width: 100%;
-    height: 550px;
+    height: 350px;
     top: 0;
     left: 0;
     background-color: var(--red-color);
@@ -400,9 +399,6 @@ transition: 0.3s;
 .graphic-text{
     font-weight: 900;
     padding: 0.5rem;
-    border: 3px white solid;
-    border-radius: 2rem;
-    margin: 1.4rem 0rem;
 }
 
 .filter{
@@ -432,5 +428,14 @@ transition: 0.3s;
     background-color: var(--white-color);
     color: var(--red-color);
     font-weight: 900;
+}
+.grid{
+    width: 100%;
+    margin: 1.5rem 0;
+    
+}
+
+.grid-item{
+    width: 100%;
 }
 /* End Graphic */
