@@ -366,3 +366,82 @@ transition: 0.3s;
     pointer-events: none;
 }
 /* End Humanitarian */
+
+/*Graphic*/
+.graphic{
+    width: 100%;
+    position: relative;
+}
+.background-bg{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: var(--red-color);
+    height: 650px;
+}
+.graphic-time{
+    font-weight: 300;
+    font-size: 2rem;
+    padding: 2.2rem 0rem;
+}
+.title-graphic{
+    color: var(--background-color);
+    font-size: 3rem;
+    font-weight: 700;
+}
+.time{
+    color: #ff3030;
+    font-weight: 900;
+    color: var(--background-color);   
+}
+
+.graphic-text{
+    font-weight: 900;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.filter{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+}
+
+.filter-btn{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin: 0.45rem 0.4rem;
+    padding: 0.85rem 1.8rem;
+    color: var(--white-color);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 1;
+    cursor: pointer;
+    border-radius: 2rem;
+    transition: 0.3s;
+}
+.filter-btn.active{
+    background-color: var(--white-color);
+    color: var(--red-color);
+    font-weight: 900;
+}
+.grid{
+    display: flex;
+}
+.grid-item{
+    width: 25%;
+    color: white;
+    padding: 1.5rem 0rem;
+}
+
+.graphic-header{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+/* End Graphic */
